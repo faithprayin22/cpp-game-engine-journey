@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int gradeInput;
+    string askagain;
+
+
+    cout << "This is a grade legend, this tells you what your grade is based out of 100 \n";
+
+    do {
+        cout << "What is your grade number out of 100?\n\n";
+        cin >> gradeInput;
+
+
+        if (gradeInput <= 100 && gradeInput >= 90) {
+        cout << "Great job, you have an 'A'\n";
+        }
+        else if (gradeInput <= 89 && gradeInput >= 80) {
+        cout << "Good job, you have a 'B'\n";
+        }
+        else if (gradeInput <= 79 && gradeInput >= 70) {
+        cout << "Not bad, you have a 'C'\n";
+        }
+        else if (gradeInput <= 69 && gradeInput >= 60) {
+        cout << "This needs improvement, you have an 'D'\n";
+        }
+        else if (gradeInput <= 59 && gradeInput >= 1) {
+        cout << "Dang dude, you have a 'F'\n";
+        }
+        else if (gradeInput > 100 || gradeInput < 1) {
+        cout << "Please enter a valid number grade.\n";
+        }
+
+        cout << "Do you want to check a different grade? (Yes/No)\n\n";
+        cin >> askagain;
+
+
+    } while (askagain == "Yes" || askagain == "yes");
+    cout << "Have a good day!\n";
+    return 0;
+
+}
