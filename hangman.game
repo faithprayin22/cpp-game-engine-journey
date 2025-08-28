@@ -8,7 +8,7 @@ int main()
 {
     greet();
 
-    string codeworad = "jesusisking";
+    string codeword = "jesusisking";
     string answer = "___________";
     int misses = 0;
     vector<char> incorrect;
