@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1756756558 source:c:\users\travis\desktop\testing rpg text game\textgame\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+	"textgame.h"
+
+1756757943 source:c:\users\travis\desktop\testing rpg text game\textgame\textgame.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<string>
+	<chrono>
+	<thread>
+	<conio.h>
+	"textgame.h"
+
+1756758159 c:\users\travis\desktop\testing rpg text game\textgame\textgame.h
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+
